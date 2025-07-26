@@ -1,0 +1,33 @@
+button.first-button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+}
+
+button.second-button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+}
+.second-button.clicked{
+    border:2px solid yellowgreen;
+    border-width: 10px;
+}
+
+.first-button.clicked{
+    border:2px solid rgb(207, 212, 197);
+    border-width: 10px;
+}
+
+    button:hover {
+    background-color: red;
+    cursor: pointer;}
+
+img{
+    border: 2px solid black;
+    border-radius: 20%;
+    }
